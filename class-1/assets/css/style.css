@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0 0 15px;
+    font-weight:400;
+    color: #373737;
+}
+body{
+    font-family: 'Khula', sans-serif;
+    font-size: 15px;
+    color:#999999;
+}
+
+.section_padding{
+    padding: 80px 0;
+}
+.main_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main_menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.main_menu li a {
+    color: #888888;
+    padding: 12px 15px;
+    display: block;
+}
+
+.boxed_btn, input[type=submit], input[type=button] {
+    color: #fff;
+    background: #ef476f;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 12px 26px;
+    font-size: 14px;
+    border: none;
+}
+
+.hero_area {
+    font-weight: 300;
+    padding: 150px 0;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+input[type=email], input[tpe=submit], input[type=tel], input[type=text], input[type=password], input[type=url], textarea {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+}
+
+input[type=submit], input[type=button] {
+    padding: 11px 25px;
+    font-weight: 400;
+}
+
+.hero_area h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    max-width: 440px;
+    padding-top: 25px;
+}
+
+.header_area {
+    padding: 20px 0;
+}
