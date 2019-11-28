@@ -1,0 +1,101 @@
+body {
+    line-height: 1.7;
+}
+html, body {
+    height: 100%;
+}
+.slide_bg_1{background-image: url(../img/hero-area/hero-bg-3.jpg);}    
+.boxed_btn, input[type=submit], input[type=button] {
+    background-color: #06d6a0;
+}
+.video_play_btn_2 {
+    height: 60px;
+    width: 60px;
+    background: #06d6a0;
+    display: inline-block;
+    text-align: center;
+    line-height: 63px;
+    color: #fff;
+    border-radius: 50%;
+    padding-left: 4px;
+    margin-top: 15px;
+}
+.blog_thumb_1{background-image: url(../img/blog/blog-1.jpg);}
+.blog_thumb_1{background-image: url(../img/blog/blog-2.jpg);}
+.blog_thumb_1{background-image: url(../img/blog/blog-3.jpg);}
+.cta_area.theme_3{background-image: url(../img/services/cta-bg-1.jpg);}
+.cta_area.theme_3::after{background: #1a75ee;
+    background: -moz-linear-gradient(45deg,  #1a75ee 0%, #18c9f8 100%);
+    background: -webkit-linear-gradient(45deg,  #1a75ee 0%,#18c9f8 100%);
+    background: linear-gradient(45deg,  #1a75ee 0%,#18c9f8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a75ee', endColorstr='#18c9f8',GradientType=1 );
+    }    
+.website_check_form {
+    margin-top: 35px;
+}   
+.single_slide_item::after{background: #1a75ee;
+    background: -moz-linear-gradient(45deg,  #1a75ee 0%, #18c9f8 100%);
+    background: -webkit-linear-gradient(45deg,  #1a75ee 0%,#18c9f8 100%);
+    background: linear-gradient(45deg,  #1a75ee 0%,#18c9f8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a75ee', endColorstr='#18c9f8',GradientType=1 );
+}        
+.single_service_box:hover {
+    border-color: #06d6a0;
+}
+
+.single_service_box:hover a.service_readmore_btn, .single_service_box:hover h3, .single_service_box:hover .service_icon {
+    color: #06d6a0;
+}
+
+.single_service_box {
+    margin-bottom: 0;
+}
+
+.owl-dots div.active {
+    background-color: #06d6a0;
+}
+
+.single_blog_box {
+    color: #999999;
+    display: block;
+    font-weight: 300;
+    box-shadow: 0 0 10px #f5f5f5f5;
+    padding: 30px;
+    transition: 0.3s;
+}
+.single_blog_box h4 {
+    line-height: 1.5;
+}
+
+.single_blog_box p:last-child {
+    margin: 0;
+}
+
+.single_blog_box:hover {
+    color: #999999;
+    opacity: 0.9;
+}
+
+.cta_area.theme_3 {
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    padding: 100px 0;
+}
+    
+
+
+        
+
+        
+                
+        
+        
+       
+        
+        
+        
+
+        
