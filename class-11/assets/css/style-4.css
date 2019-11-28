@@ -1,0 +1,135 @@
+.homepage_hero_area_4{background-image:url(../img/hero-area/hero-bg-4.jpg)}
+html, body, .homepage_hero_area_4, .single_slide_item {
+    height: 100%;
+}
+
+.single_slide_item {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.slide_item_wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.slide_item_wrapper h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.website_check_form {
+    margin-top: 30px;
+}
+
+.website_check_form input {
+    background-color: #073b4c;
+    border-color: #073b4c;
+    color: #fff;
+}
+
+.boxed_btn, input[type=submit], input[type=button]{background-color:#06d6a0;}
+
+.website_check_form input[type=submit], .website_check_form button[type=submit] {
+    background: #06d6a0;
+}
+
+.homepage_hero_area_4 {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.homepage_hero_area_4::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #073b4c;
+    content: '';
+    z-index: -1;
+    opacity: 0.4;
+}
+.off_canvas_menu_shade {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 98;
+    background: #073b4c;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.off_canvas_menu_shade.active{
+    visibility: visible;
+    opacity: 0.7;
+}
+.off_canvas_menu {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    z-index: 99;
+    background-color: #fff;
+    padding: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.off_canvas_menu.show_off_canvas_menu{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.menu_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.off_canvas_menu a {
+    color: #333;
+}
+
+.menu_logo {
+    text-transform: uppercase;
+    border: 1px solid #073b4c;
+    display: inline-block;
+    padding: 10px 10px 2px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.off_canvas_menu ul {
+    font-size: 120%;
+    list-style: none;
+    line-height: 2.3;
+    margin: 0;
+    padding: 0;
+}
+
+.off_canvas_menu a:hover {
+    opacity: 0.5;
+}
+
+.menu_triggers, .search_triggers {
+    color: #fff;
+    font-size: 18px;
+    padding: 13px 0 5px;
+    display: inline-block;
+    cursor: pointer;
+}
